@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemySpawnerScript : MonoBehaviour {
 
     public float timeToSpawn = 4;
     int spawnCount = 0;
     public GameObject enemyPref, waypointParent;
+    public GameObject timeSpawnText;
 
 	// Use this for initialization
 	void Start () {
@@ -21,7 +23,9 @@ public class EnemySpawnerScript : MonoBehaviour {
         }
 
         timeToSpawn -= Time.deltaTime;
-	}
+        timeSpawnText.GetComponent<Text>().text = Mathf.Round(timeToSpawn).ToString() + " before new wave!!!";
+
+    }
 
     IEnumerator SpawnEnemy(int enemyCount) {
 
