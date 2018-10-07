@@ -13,14 +13,20 @@ public class EnemyScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        wayPoints = GameObject.Find("Main Camera").GetComponent<GameControllerScript>().wayPoints;
-	}
+        GetWaypoints();
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
         Move();
 	}
 
+    void GetWaypoints() {
+        for (int i = 0; i < waypointsParent.transform.childCount; i++) {
+            wayPoints.Add(waypointsParent.transform.GetChild(i).gameObject);
+        }
+    }
 
     void Move() {
       

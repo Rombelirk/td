@@ -8,7 +8,7 @@ public class GameControllerScript : MonoBehaviour {
 	// Use this for initialization	
 	public int cellCount;
 
-    public List<GameObject> wayPoints = new List<GameObject>();
+    //public List<GameObject> wayPoints = new List<GameObject>();
 
     int[] pathId = {
         9,30,51, 52,53,54,75,96,117,138,159,180,201,200,

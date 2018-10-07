@@ -69,6 +69,8 @@
     <Compile Include="Assets\Scripts\EnemySpawnerScript.cs" />
     <Compile Include="Assets\Scripts\GameControllerScript.cs" />
     <Compile Include="Assets\Scripts\iTweenPath.cs" />
+    <Compile Include="Assets\Scripts\TowerProjectileScript.cs" />
+    <Compile Include="Assets\Scripts\TowerScript.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/user/Desktop/td/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

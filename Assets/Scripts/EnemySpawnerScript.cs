@@ -35,7 +35,7 @@ public class EnemySpawnerScript : MonoBehaviour {
             GameObject tmpEnemy = Instantiate(enemyPref);
             tmpEnemy.transform.SetParent(gameObject.transform, false);
             tmpEnemy.GetComponent<EnemyScript>().waypointsParent = waypointParent;
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(0.5f);
 
         }
 
