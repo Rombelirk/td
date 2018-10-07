@@ -66,6 +66,7 @@
     <Compile Include="Assets\MusicManager.cs" />
     <Compile Include="Assets\Scripts\CellScript.cs" />
     <Compile Include="Assets\Scripts\EnemyScript.cs" />
+    <Compile Include="Assets\Scripts\EnemySpawnerScript.cs" />
     <Compile Include="Assets\Scripts\GameControllerScript.cs" />
     <Compile Include="Assets\Scripts\iTweenPath.cs" />
     <Reference Include="UnityEditor.StandardEvents">

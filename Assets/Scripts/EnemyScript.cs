@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour {
 
+    public GameObject waypointsParent;
     public GameObject child;
 
     List<GameObject> wayPoints = new List<GameObject>();
