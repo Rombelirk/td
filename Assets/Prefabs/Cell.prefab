@@ -69,8 +69,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   state: 0
-  normCol: {r: 0.1509434, g: 0.13456747, b: 0.13456747, a: 1}
-  pathCol: {r: 0, g: 0, b: 0, a: 1}
+  normCol: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 0}
+  pathCol: {r: 0.735849, g: 0.36445352, b: 0.36445352, a: 0}
 --- !u!222 &222832521093559440
 CanvasRenderer:
   m_ObjectHideFlags: 1
